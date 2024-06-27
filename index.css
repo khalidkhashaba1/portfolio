@@ -310,7 +310,7 @@ header .header-content img{
         height: 130vh;
     }
     .home .header-content .content-text{
-        margin-top: -15.5rem;
+        margin-top: 5.5rem;
     }
 }
 @media(max-width : 580px){
