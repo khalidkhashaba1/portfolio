@@ -100,6 +100,7 @@ header .header-content img{
     color: var(--primary-color);
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     direction: rtl;
+    white-space: nowrap;
 }
 .home .header-content .title{
     font-size: 30px;
@@ -203,6 +204,7 @@ header .header-content img{
     }
     .home .header-content h1{
         font-size: 50px;
+        white-space: nowrap;
     }
     header{
         height: 160vh;
@@ -216,7 +218,7 @@ header .header-content img{
         justify-content: center;
     }
     .home .header-content p span{
-        margin: 0  auto;
+        margin: 0  25%;
     }
     .btn-primary{
         margin: 0 138px;
@@ -224,10 +226,13 @@ header .header-content img{
 }
 @media (max-width: 920px){
     .home .header-content .content-text{
-        margin-top: -30rem;
+        margin-top: 1rem;
     }
     header{
-        height: 100vh;
+        height: 140vh;
+    }
+    .home .header-content p span{
+        margin: 0 auto;
     }
 }
 @media (max-width: 768px){
@@ -254,7 +259,7 @@ header .header-content img{
         font-size: 50px;
     }
     header{
-        height: 100vh;
+        height: 140vh;
     }
     #about .about-content {
         grid-template-columns: 1fr;
@@ -265,7 +270,7 @@ header .header-content img{
         justify-content: center;
     }
     .home .header-content p span{
-        margin: 0  auto;
+        margin: 0  25%;
     }
     .btn-primary{
         margin: 0 138px;
@@ -284,7 +289,7 @@ header .header-content img{
         margin: 0 auto;
     }
     .home .header-content .content-text{
-        margin-top: -34rem;
+        margin-top: -12rem;
         direction: rtl;
         text-align: center;
     }
@@ -310,7 +315,7 @@ header .header-content img{
         height: 130vh;
     }
     .home .header-content .content-text{
-        margin-top: 5.5rem;
+        margin-top: -15.5rem;
     }
 }
 @media(max-width : 580px){
